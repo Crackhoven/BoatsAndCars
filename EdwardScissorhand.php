@@ -4,7 +4,7 @@
        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content ="IE=edge">
        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
-        <title>Cars</title>
+        <title>Cars and Boats</title>
     </head>
    <body>
 <?php
@@ -35,7 +35,7 @@ class Ships extends Cars {
     }
     
 }
-$myShip1 = new Ships('Titanic', 'Cruiser', 'Dark Grey');
+$myShip1 = new Ships('Titanic', 'Cruiser', 'Dark Grey/Rusty');
 echo $myShip1->shipName;
 echo "<br>";
 echo $myShip1->shipModel;
